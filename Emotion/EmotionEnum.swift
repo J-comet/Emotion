@@ -7,7 +7,7 @@
 
 import UIKit
 
-enum Emotion: CaseIterable {
+enum Emotion:Int, CaseIterable {
     case happy
     case smile
     case basic

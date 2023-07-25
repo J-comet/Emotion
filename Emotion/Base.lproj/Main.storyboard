@@ -22,9 +22,11 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wqc-XE-ANR">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="124.66666666666667"/>
                                         <color key="backgroundColor" systemColor="tintColor"/>
+                                        <gestureRecognizers/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain"/>
                                         <connections>
+                                            <action selector="emotionBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a4x-ck-Uch"/>
                                             <action selector="happyButton:" destination="kOV-DV-T3E" eventType="touchUpInside" id="SJQ-c2-9mt"/>
                                         </connections>
                                     </button>
@@ -33,6 +35,9 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="emotionBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fye-Ya-UTb"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLL-TF-NU5">
                                         <rect key="frame" x="0.0" y="249.33333333333334" width="414" height="124.33333333333334"/>
@@ -40,6 +45,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain"/>
                                         <connections>
+                                            <action selector="emotionBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Cs-we-vYD"/>
                                             <action selector="happyButton:" destination="kOV-DV-T3E" eventType="touchUpInside" id="jrm-4V-ZSd"/>
                                         </connections>
                                     </button>
@@ -48,6 +54,9 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="emotionBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mwZ-rK-q4k"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcI-9t-F6z">
                                         <rect key="frame" x="0.0" y="498.33333333333343" width="414" height="124.66666666666669"/>
@@ -55,6 +64,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain"/>
                                         <connections>
+                                            <action selector="emotionBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JiQ-ZP-csC"/>
                                             <action selector="happyButton:" destination="kOV-DV-T3E" eventType="touchUpInside" id="ToS-hc-kaw"/>
                                         </connections>
                                     </button>
@@ -118,6 +128,7 @@
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstItem="jF3-1y-bDm" firstAttribute="leading" secondItem="yYS-lk-2jf" secondAttribute="leading" constant="8" id="0Ux-Kz-tpl"/>
                                             <constraint firstItem="pNz-Ys-nJc" firstAttribute="centerY" secondItem="yYS-lk-2jf" secondAttribute="centerY" id="12N-Sw-nOp"/>
