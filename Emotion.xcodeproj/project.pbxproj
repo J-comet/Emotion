@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C05E5EBF2A6FD69200725BB5 /* EmotionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05E5EBE2A6FD69200725BB5 /* EmotionEnum.swift */; };
+		C05E5EC12A6FE93B00725BB5 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05E5EC02A6FE93B00725BB5 /* StatisticsViewController.swift */; };
 		C09909512A6FC8CF00096E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09909502A6FC8CF00096E64 /* AppDelegate.swift */; };
 		C09909532A6FC8CF00096E64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09909522A6FC8CF00096E64 /* SceneDelegate.swift */; };
 		C09909552A6FC8CF00096E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09909542A6FC8CF00096E64 /* ViewController.swift */; };
 		C09909582A6FC8CF00096E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09909562A6FC8CF00096E64 /* Main.storyboard */; };
 		C099095A2A6FC8D000096E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09909592A6FC8D000096E64 /* Assets.xcassets */; };
 		C099095D2A6FC8D000096E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C099095B2A6FC8D000096E64 /* LaunchScreen.storyboard */; };
+		C09909652A6FD1E100096E64 /* EmotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09909642A6FD1E100096E64 /* EmotionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C05E5EBE2A6FD69200725BB5 /* EmotionEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionEnum.swift; sourceTree = "<group>"; };
+		C05E5EC02A6FE93B00725BB5 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = SOURCE_ROOT; };
 		C099094D2A6FC8CF00096E64 /* Emotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09909502A6FC8CF00096E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C09909522A6FC8CF00096E64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		C09909592A6FC8D000096E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C099095C2A6FC8D000096E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C099095E2A6FC8D000096E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09909642A6FD1E100096E64 /* EmotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +62,16 @@
 		C099094F2A6FC8CF00096E64 /* Emotion */ = {
 			isa = PBXGroup;
 			children = (
+				C05E5EC02A6FE93B00725BB5 /* StatisticsViewController.swift */,
 				C09909502A6FC8CF00096E64 /* AppDelegate.swift */,
 				C09909522A6FC8CF00096E64 /* SceneDelegate.swift */,
 				C09909542A6FC8CF00096E64 /* ViewController.swift */,
 				C09909562A6FC8CF00096E64 /* Main.storyboard */,
+				C09909642A6FD1E100096E64 /* EmotionViewController.swift */,
 				C09909592A6FC8D000096E64 /* Assets.xcassets */,
 				C099095B2A6FC8D000096E64 /* LaunchScreen.storyboard */,
 				C099095E2A6FC8D000096E64 /* Info.plist */,
+				C05E5EBE2A6FD69200725BB5 /* EmotionEnum.swift */,
 			);
 			path = Emotion;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05E5EBF2A6FD69200725BB5 /* EmotionEnum.swift in Sources */,
+				C09909652A6FD1E100096E64 /* EmotionViewController.swift in Sources */,
 				C09909552A6FC8CF00096E64 /* ViewController.swift in Sources */,
+				C05E5EC12A6FE93B00725BB5 /* StatisticsViewController.swift in Sources */,
 				C09909512A6FC8CF00096E64 /* AppDelegate.swift in Sources */,
 				C09909532A6FC8CF00096E64 /* SceneDelegate.swift in Sources */,
 			);
