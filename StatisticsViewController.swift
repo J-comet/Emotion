@@ -13,6 +13,8 @@ class StatisticsViewController: UIViewController {
     @IBOutlet var emotionTitleLabel: [UILabel]!
     @IBOutlet var containerViewCollection: [UIView]!
     
+    let userDefaults = UserDefaults.standard
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "OH MY MOOD"
@@ -24,6 +26,10 @@ class StatisticsViewController: UIViewController {
         for label in emotionScoreLabel {
             label.text = "0점"
         }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        reloadData()
     }
 
     func designContainer() {
@@ -43,6 +49,17 @@ class StatisticsViewController: UIViewController {
         for i in 0...emotionTitleLabel.count - 1 {
             emotionTitleLabel[i].textColor = EmotionLabelColor.allCases[i].value
             emotionScoreLabel[i].textColor = EmotionLabelColor.allCases[i].value
+        }
+    }
+    
+    func reloadData() {
+        print("저장된 데이터 불러오기")
+        for i in 0...emotionScoreLabel.count - 1 {
+//            print(Emotion(rawValue: i), "감정")
+            if let value = Emotion(rawValue: i) {
+                let score = userDefaults.integer(forKey: String(describing: value))
+                emotionScoreLabel[i].text = "\(score)점"
+            }
         }
     }
 }
