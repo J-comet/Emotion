@@ -15,6 +15,8 @@ class StatisticsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "OH MY MOOD"
+        
         designContainer()
         setEmotionTitle()
         setLabelColor()
